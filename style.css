@@ -1,0 +1,107 @@
+/* KaamSetu colour palette
+   Main colour:      #FFC2B4 (bottom shade)
+   Secondary colour: #FF8882 (top shade)
+*/
+
+:root {
+  --main: #FFC2B4;
+  --secondary: #FF8882;
+  --dark: #3d2927;
+  --muted: #76615d;
+  --light: #fff8f6;
+}
+
+/* General */
+body {
+  background: #ffffff;
+  color: var(--dark);
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand { color: var(--dark) !important; }
+.navbar-brand span { color: var(--secondary) !important; }
+
+/* Bootstrap button colour overrides */
+.btn-success {
+  background: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+  color: #382321 !important;
+}
+.btn-success:hover {
+  background: #f47772 !important;
+  border-color: #f47772 !important;
+}
+.btn-outline-success {
+  color: #a94743 !important;
+  border-color: var(--secondary) !important;
+}
+.btn-outline-success:hover {
+  background: var(--secondary) !important;
+  color: #382321 !important;
+}
+.text-success { color: #a94743 !important; }
+
+/* Hero */
+.hero {
+  background: linear-gradient(120deg, var(--main), #fff0eb);
+}
+.hero h1 { line-height: 1.15; }
+.hero h1 span { color: #b94f4a; }
+.tag, .section-tag {
+  color: #a94743;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.hero-card {
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 15px 45px #5a29201a;
+}
+
+/* Service cards */
+.service-card, .form-card, .step-card {
+  border: 1px solid #f4ded8;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px #5a29200d;
+}
+.service-card { transition: 0.2s; }
+.service-card:hover { transform: translateY(-5px); }
+.service-icon { font-size: 34px; }
+
+/* Forms and sections */
+.form-section, .steps-section {
+  background: var(--light);
+}
+.form-card { background: #ffffff; }
+.worker-form { max-width: 850px; }
+
+.form-control, .form-select {
+  padding: 11px 12px;
+  border-color: #ead4ce;
+}
+.form-control:focus, .form-select:focus {
+  border-color: var(--secondary);
+  box-shadow: 0 0 0 3px #ff888233;
+}
+
+/* How it works */
+.step-number {
+  color: #b94f4a;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+  background: var(--secondary);
+  color: #382321;
+}
+footer .navbar-brand { color: #382321 !important; }
+
+/* Mobile */
+@media (max-width: 576px) {
+  .hero h1 { font-size: 2.3rem; }
+  .navbar .btn { font-size: 13px; padding: 7px 10px; }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KaamSetu | Find Work. Hire Easily.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-3" href="#">KaamSetu<span class="text-success">.</span></a>
+      <div class="ms-auto d-flex gap-2">
+        <a class="btn btn-outline-success" href="#work">Find Work</a>
+        <a class="btn btn-success" href="#hire">Hire a Worker</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero py-5">
+    <div class="container py-lg-5">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <span class="tag">YOUR LOCAL WORK PARTNER</span>
+          <h1 class="display-4 fw-bold mt-3">Good work starts with the <span>right connection.</span></h1>
+          <p class="lead text-secondary my-4">Find trusted local workers or discover work opportunities around you. Simple, quick and convenient.</p>
+          <a href="#work" class="btn btn-success btn-lg me-2">Explore Work</a>
+          <a href="#hire" class="btn btn-outline-dark btn-lg">Post a Requirement</a>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-card overflow-hidden">
+            <img src="https://openprop.africa/_next/image?q=75&url=%2Fimages%2Fartisan.png&w=1200"
+                 class="img-fluid hero-photo" alt="Skilled workers providing home repair services">
+            <div class="p-4">
+              <h3 class="fw-bold">Skills meet opportunity.</h3>
+              <p class="text-secondary mb-0">A simple platform to bring customers and skilled workers together.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="container py-5" id="work">
+      <div class="text-center mb-4">
+        <p class="section-tag">WHAT ARE YOU LOOKING FOR?</p>
+        <h2 class="fw-bold">Popular Services</h2>
+        <p class="text-secondary">Find the right person for your everyday needs.</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card service-card h-100 p-4">
+            <img src="https://www.poscon.co.uk/_webedit/cached-images/63-0-0-4-10000-9992-1920.jpg"
+                 class="img-fluid service-photo" alt="Electrician working inside a home">
+            <h5 class="fw-bold mt-3">Electrician</h5>
+            <p class="text-secondary">Electrical repairs, wiring and installations.</p>
+            <a href="#hire" class="btn btn-outline-success mt-auto">Request Service</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card service-card h-100 p-4">
+            <img src="https://static2.mojakruszwica.pl/data/classifieds/xga-16x9-szukasz-fachowca-hydraulik-lub-elektryk-czeka-1775201704.png"
+                 class="img-fluid service-photo" alt="Plumber repairing pipes">
+            <h5 class="fw-bold mt-3">Plumber</h5>
+            <p class="text-secondary">Pipe repairs, fitting and plumbing services.</p>
+            <a href="#hire" class="btn btn-outline-success mt-auto">Request Service</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card service-card h-100 p-4">
+            <img src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?fm=jpg&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9tZSUyMHJlcGFpcnN8ZW58MHx8MHx8fDA%3D&ixlib=rb-4.1.0&q=60&w=1200"
+                 class="img-fluid service-photo" alt="Carpenter working with wood">
+            <h5 class="fw-bold mt-3">Carpenter</h5>
+            <p class="text-secondary">Furniture repair and woodwork services.</p>
+            <a href="#hire" class="btn btn-outline-success mt-auto">Request Service</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section py-5" id="hire">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-5">
+            <p class="section-tag">NEED SOMEONE?</p>
+            <h2 class="fw-bold">Tell us what work you need done.</h2>
+            <p class="text-secondary">Share a few details and connect with a worker who has the right skills.</p>
+            <ul class="list-unstyled mt-4">
+              <li class="mb-2">✓ Easy request form</li>
+              <li class="mb-2">✓ Choose the service you need</li>
+              <li>✓ Share your preferred date and location</li>
+            </ul>
+          </div>
+          <div class="col-lg-7">
+            <form class="form-card p-4 p-md-5">
+              <h4 class="fw-bold mb-4">Hire a Worker</h4>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Your Name</label>
+                  <input type="text" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" placeholder="Enter phone number" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Service Required</label>
+                  <select class="form-select" required>
+                    <option value="">Choose a service</option>
+                    <option>Electrician</option><option>Plumber</option><option>Carpenter</option><option>Other</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Preferred Date</label>
+                  <input type="date" class="form-control" required>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Work Location</label>
+                  <input type="text" class="form-control" placeholder="Enter your area or address" required>
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Work Details</label>
+                  <textarea class="form-control" rows="3" placeholder="Briefly describe the work"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-success w-100 py-2">Submit Request</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5" id="join">
+      <div class="text-center mb-4">
+        <p class="section-tag">GROW WITH KAAMSETU</p>
+        <h2 class="fw-bold">Are you a skilled worker?</h2>
+        <p class="text-secondary">Create your profile and let people find your skills.</p>
+      </div>
+      <form class="form-card p-4 p-md-5 mx-auto worker-form">
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="Enter your full name" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Mobile Number</label>
+            <input type="tel" class="form-control" placeholder="Enter mobile number" required>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Your Skill</label>
+            <select class="form-select" required>
+              <option value="">Select your skill</option>
+              <option>Electrician</option><option>Plumber</option><option>Carpenter</option><option>Painter</option><option>Other</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label class="form-label">Experience</label>
+            <select class="form-select" required>
+              <option value="">Select experience</option>
+              <option>Fresher</option><option>1–2 years</option><option>3–5 years</option><option>More than 5 years</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label class="form-label">Area / City</label>
+            <input type="text" class="form-control" placeholder="Where do you provide services?" required>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-success px-4">Register as Worker</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="steps-section py-5">
+      <div class="container text-center">
+        <p class="section-tag">SIMPLE PROCESS</p>
+        <h2 class="fw-bold mb-4">How KaamSetu Works</h2>
+        <div class="row g-4">
+          <div class="col-md-4"><div class="step-card p-4 h-100"><div class="step-number">01</div><h5 class="fw-bold">Search</h5><p class="text-secondary mb-0">Find a service or explore work opportunities.</p></div></div>
+          <div class="col-md-4"><div class="step-card p-4 h-100"><div class="step-number">02</div><h5 class="fw-bold">Connect</h5><p class="text-secondary mb-0">Share details and connect with the right person.</p></div></div>
+          <div class="col-md-4"><div class="step-card p-4 h-100"><div class="step-number">03</div><h5 class="fw-bold">Get it Done</h5><p class="text-secondary mb-0">Get the work completed with ease.</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container text-center">
+      <a class="navbar-brand fw-bold text-white fs-4" href="#">KaamSetu.</a>
+      <p class="mb-0 mt-2">Connecting skills with opportunities. © 2026 KaamSetu</p>
+    </div>
+  </footer>
+
+</body>
+</html>
